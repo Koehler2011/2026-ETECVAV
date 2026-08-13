@@ -14,7 +14,14 @@
 
 <hr/>
 
-
 <h2 align="center"> 📊 Interfaces Web 1 </> </h2>
 
 <h3 align="center"> Professores: Cristiane e Ronildo <h3>
+
+<hr/>
+
+ <h2 align="center"> 🧑 Programação e Algoritmos 💻 </> </h2>
+
+<h3 align="center"> Professores: Luciana e Ronildo <h3>
+
+
