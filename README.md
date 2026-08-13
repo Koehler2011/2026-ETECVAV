@@ -4,5 +4,5 @@
 
 <h2 align="center">Banco de Dados</h2>
 
-# Professores: Cristiane e Madureira
-Aluno: Eduardo Koehler
+<h3 align="center"> Professores: Cristiane e Madureira <h3>
+<h4 align="center"> Aluno: Eduardo Koehler </h3>
