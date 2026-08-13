@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 300px;">2026</h1>
+<p>align="center" style="font-size: 300px;">2026</p>
 
 <hr/>
 
