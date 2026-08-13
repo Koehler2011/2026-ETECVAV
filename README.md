@@ -2,7 +2,7 @@
 
 <hr/>
 
-<h2 align="center"> 🖥️ Arte Digital 🖊️ </h2>
+<h2 align="center"> <a href="https://github.com/Koehler2011/2026-ETECVAV/tree/main/Arte%20Digital"> 🖥️ Arte Digital 🖊️ </a></h2>
 
 <h3 align="center"> Professores: Cristiane e Rafael <h3>
   
