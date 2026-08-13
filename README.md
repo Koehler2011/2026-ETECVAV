@@ -20,8 +20,14 @@
 
 <hr/>
 
- <h2 align="center"> 🧑 Programação e Algoritmos 💻 </> </h2>
+<h2 align="center"> 🧑 Programação e Algoritmos 💻 </> </h2>
 
 <h3 align="center"> Professores: Luciana e Ronildo <h3>
+
+<hr/>
+
+<h2 align="center"> 🌐 Projetos de Tecnologia de Informação e Comunicação 🤖 </> </h2>
+
+<h3 align="center"> Professores: Madureira e Mele <h3>
 
 
