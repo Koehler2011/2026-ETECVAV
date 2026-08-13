@@ -20,13 +20,13 @@
 
 <hr/>
 
-<h2 align="center"> 🧑 Programação e Algoritmos 💻 </> </h2>
+<h2 align="center"> <a href="https://github.com/Koehler2011/2026-ETECVAV/tree/main/Programa%C3%A7%C3%A3o%20e%20Algoritmos">🧑 Programação e Algoritmos 💻 </> </a></h2>
 
 <h3 align="center"> Professores: Luciana e Ronildo <h3>
 
 <hr/>
 
-<h2 align="center"> 🌐 Projetos de Tecnologia de Informação e Comunicação 🤖 </> </h2>
+<h2 align="center"> <a href="https://github.com/Koehler2011/2026-ETECVAV/tree/main/Projetos%20de%20Tecnologia%20de%20Informa%C3%A7%C3%A3o%20e%20Comunica%C3%A7%C3%A3o">🌐 Projetos de Tecnologia de Informação e Comunicação 🤖 </> </a></h2>
 
 <h3 align="center"> Professores: Madureira e Mele <h3>
 
