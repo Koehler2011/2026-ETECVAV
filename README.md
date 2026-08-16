@@ -20,6 +20,8 @@
 
 <h3 align="center"> Professores: Cristiane e Ronildo <h3>
 
+<h4 align="center"> Construímos páginas web, a partir do Visual Code, com HTML e CSS. <h4>
+
 <hr/>
 
 <h2 align="center"> <a href="https://github.com/Koehler2011/2026-ETECVAV/tree/main/Programa%C3%A7%C3%A3o%20e%20Algoritmos">🧑 Programação e Algoritmos 💻 </> </a></h2>
