@@ -28,6 +28,8 @@
 
 <h3 align="center"> Professores: Luciana e Ronildo <h3>
 
+<h4 align="center"> Nesta matéria aprendemos sobre linguagem de programação (obviamente né, por que se não, não seria "Programação e Algoritmos"), por enquanto a gente só aprendeu a programar algumas coisas  básicas com: Portugol, C++ e Python. <h4>
+
 <hr/>
 
 <h2 align="center"> <a href="https://github.com/Koehler2011/2026-ETECVAV/tree/main/Projetos%20de%20Tecnologia%20de%20Informa%C3%A7%C3%A3o%20e%20Comunica%C3%A7%C3%A3o">🌐 Projetos de Tecnologia de Informação e Comunicação 🤖 </> </a></h2>
