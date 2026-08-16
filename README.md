@@ -5,6 +5,8 @@
 <h2 align="center"> <a href="https://github.com/Koehler2011/2026-ETECVAV/tree/main/Arte%20Digital"> 🖥️ Arte Digital 🖊️ </a></h2>
 
 <h3 align="center"> Professores: Cristiane e Rafael <h3>
+
+<h4 align="center"> Aprendemos a mexer com o GIMP, na qual editamos imagens, criamos algumas, e também fazemos figurinhas! <h4>
   
 <hr/>
 
