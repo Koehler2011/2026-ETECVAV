@@ -1,3 +1,9 @@
+"""
+    Autor: Eduardo Koehler
+    Data: Agosto/2026
+    Descrição: Calcula a soma dos números pares de 1 até um número informado.
+"""
+
 n = int(input('Digite um número inteiro positivo: '))
 soma = 0
 contador = 0
