@@ -5,8 +5,8 @@
 """
 n = int(input('Digite um numero inteiro positivo: '))
 
-divisor = 1;
-quantidadeDivisores = 0;
+divisor = 1
+quantidadeDivisores = 0
 
 if n > 0:
     while divisor <= n:
