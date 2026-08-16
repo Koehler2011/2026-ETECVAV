@@ -1,8 +1,8 @@
-/*
+"""
     Autor: Eduardo Koehler
     Data: Agosto/2026
     Descrição: Lê dois números inteiros e informa qual é o maior ou se são iguais.
-*/
+"""
 
 n = int(input('Digite um número inteiro: '))
 n2 = int(input('Digite outro número inteiro: '))
