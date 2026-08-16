@@ -1,3 +1,9 @@
+/*
+    Autor: Eduardo Koehler
+    Data: Agosto/2026
+    Descrição: Lê um número inteiro positivo e exibe a contagem de 1 até esse número.
+*/
+
 n = int(input('Digite um número inteiro: '))
 contador = 1
 
