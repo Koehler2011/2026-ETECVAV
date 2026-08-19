@@ -1,3 +1,10 @@
+"""
+    Quiz de cantores sertanejos, criado por Eduardo Koehler 1°D
+"""
+
+acertos = 0
+erros = 0
+pontuacao_final = 0
 
 resposta_usuario = input('Este é um quiz de cantores sertanejos, gostaria de participar?\n')
 
@@ -13,32 +20,39 @@ print('2) Beija-Flor')
 print('3) Rainha do sertanejo')
 print('4) Rainha da sofrência')
 
-primeira_pergunta = int(input('Qual das alternativas é a sua resposta? '))
-if primeira_pergunta == 3:
+pergunta = int(input('Qual das alternativas é a sua resposta? '))
+if pergunta == 4:
+    acertos += 1
     print('\nVocê acertou! Vamos para a próxima.\n')
+
 else:
+    erros += 1
     print('\nVocê errou! Vamos para a próxima.\n')
 
-print('Segunda pergunta, quem é conhecido como "Embaixador"?')
+print('Segunda pergunta, que cantor é conhecido como "Embaixador"?')
 print('1) Gusttavo Lima')
 print('2) Gustavo Mioto')
 print('3) Mirosmar')
 print('4) Sorocaba')
 
-primeira_pergunta = int(input('Qual das alternativas é a sua resposta? '))
-if primeira_pergunta == 1:
+pergunta = int(input('Qual das alternativas é a sua resposta? '))
+if pergunta == 1:
+    acertos += 1
     print('\nMuito bem, continue assim, agora quero ver acertar a próxima!\n')
 else:
+    erros += 1
     print('\nVocê errou! Não desanime!\n')
 
 print('Terceira pergunta, é verdade que a música "Boate Azul" surgiu por causa que o letrista passou pelo o que está na música?')
 print('1) Verdadeiro')
 print('2) Falso')
 
-primeira_pergunta = int(input('Qual das alternativas é a sua resposta? '))
-if primeira_pergunta == 1:
+pergunta = int(input('Qual das alternativas é a sua resposta? '))
+if pergunta == 1:
+    acertos += 1
     print('\nImpressionante, acertou mais uma!\n')
 else:
+    erros += 1
     print('\nAh, você errou. Mas tudo bem, não desista!\n')
 
 print('Quarta pergunta, quem canta a música "Te Esperando"?')
@@ -47,8 +61,29 @@ print('2) Luan Santana')
 print('3) João Paulo e Daniel')
 print('4) Marília Mendonça')
 
-primeira_pergunta = int(input('Qual das alternativas é a sua resposta? '))
-if primeira_pergunta == 2:
+pergunta = int(input('Qual das alternativas é a sua resposta? '))
+if pergunta == 2:
+    acertos += 1
     print('\nParabéns! Acertou outra pergunta!\n')
 else:
+    erros += 1
     print('\nVocê errou!\n')
+
+print('Quinta pergunta, qual dupla sertaneja canta a música "Tijoão"?')
+print('1) Maiara e Maraísa')
+print('2) Yasmin Sensação')
+print('3) Jorge e Mateus')
+print('4) Matheus e Kauan')
+
+pergunta = int(input('Qual das alternativas é a sua resposta? '))
+if pergunta == 3:
+    acertos += 1
+    print('\nMuuuuuuuuuuito bemm, sabe muito!\n')
+else:
+    erros += 1
+    print('\nAh, que pena, você errou!\n')
+
+pontuacao_final = acertos - erros
+print(f'Após tudo isso, sua pontução final foi de {pontuacao_final}, tendo {acertos} acerto(s) e {erros} erro(s)')
+
+
