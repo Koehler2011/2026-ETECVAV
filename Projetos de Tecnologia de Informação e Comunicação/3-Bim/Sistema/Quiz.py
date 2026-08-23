@@ -83,7 +83,19 @@ else:
     erros += 1
     print('\nAh, que pena, você errou!\n')
 
-pontuacao_final = acertos - erros
-print(f'Após tudo isso, sua pontução final foi de {pontuacao_final}, tendo {acertos} acerto(s) e {erros} erro(s)')
+print('Sexta pergunta, qual dupla sertaneja canta a música "Conveniência", "namorada Reserva" e "Morena de Goiânia"?')
+print('1) Guilherme e Benuto')
+print('2) Victor e Leo')
+print('3) Hugo e Guilherme')
+print('4) ')
 
+pergunta = int(input('Qual das alternativas é a sua resposta? '))
+if pergunta == 3:
+    acertos += 1
+    print('\nMuuuuuuuuuuito bemm, sabe muito!\n')
+else:
+    erros += 1
+    print('\nAh, que pena, você errou!\n')
 
+pontuacao_final = (acertos * 100)/10
+print(f'Após tudo isso, sua pontução final foi de {pontuacao_final}%, tendo {acertos} acerto(s) e {erros} erro(s)')
