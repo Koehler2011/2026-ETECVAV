@@ -1,8 +1,9 @@
 ## Versão Inicial do Quiz
 
+---
+
 ```python
 
----
 """
     Quiz de cantores sertanejos, criado por Eduardo Koehler 1°D
 """
