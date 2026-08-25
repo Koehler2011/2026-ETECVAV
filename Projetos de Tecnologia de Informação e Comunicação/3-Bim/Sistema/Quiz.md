@@ -4,8 +4,6 @@
 
 ```python
 
-
-
 """
     Quiz de cantores sertanejos, criado por Eduardo Koehler 1°D
 """
@@ -163,7 +161,8 @@ else:
 
 perguntas += 1
 
-print('Décima pergunta, qual(is) é(são) o(s) melhor(es) cantor(es) e cantora(s)?') print('1) João Bosco e Vinícius, Simone Mendes') 
+print('Décima pergunta, qual(is) é(são) o(s) melhor(es) cantor(es) e cantora(s)?') 
+print('1) João Bosco e Vinícius, Simone Mendes') 
 print('2) Victor e Leo, Malu') 
 print('3) Dilsinho, Maiara e Maraisa') 
 print('4) Bruno e Marrone, Chitãozinho e Xororó') 
@@ -173,7 +172,7 @@ print('7) Henrique e Juliano, Zé Neto e Cristiano')
 print('8) Mathues e Kauan, Paula Fernandes')  
 
 pergunta = int(input('Qual das alternativas é a sua resposta? '))
- if pergunta == 6:     
+if pergunta == 6:     
     acertos += 1     
     print('\n😝!\n') 
 else:     
