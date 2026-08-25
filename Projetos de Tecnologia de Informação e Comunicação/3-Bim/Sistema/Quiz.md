@@ -4,6 +4,8 @@
 
 ```python
 
+
+
 """
     Quiz de cantores sertanejos, criado por Eduardo Koehler 1°D
 """
@@ -116,7 +118,70 @@ else:
 
 perguntas += 1
 
+print('Sétima pergunta, qual dupla sertaneja canta as músicas "Não Abro Mão", "Aí Eu Bebo", "Narcisita" e "Medo Bobo"?')
+print('1) Simone e Simaria')
+print('2) Maiara e Maraisa') 
+print('3) Mari Fernandes') 
+print('4) Manu Batidão')
+
+pergunta = int(input('Qual das alternativas é a sua resposta? ')) 
+if pergunta == 2:     
+    acertos += 1     
+    print('\nContinue assim!\n') 
+else:     
+    erros += 1     
+    print('\nAh, que pena, você errou!\n')  
+    
+perguntas += 1
+
+print('Oitava pergunta, qual dupla sertaneja canta as músicas "3 Batidas", "Pulei na Piscina" e "Haja Colírio"?') 
+print('1) Guilherme e Benuto') 
+print('2) Guilherme e Santiago') 
+print('3) Bruno e Henrique') 
+print('4) Michel Teló')  
+
+pergunta = int(input('Qual das alternativas é a sua resposta? ')) 
+if pergunta == 1:     
+    acertos += 1     
+    print('\nImpressionante!\n')
+else:     
+    erros += 1     
+    print('\nVocê errou!\n')  
+    
+perguntas += 1
+
+print('Nona pergunta, é verdade que o Murilo Huff teve um filho com a Simone Mendes?') 
+print('1) Verdadeiro') 
+print('2) Falso')  
+pergunta = int(input('Qual das alternativas é a sua resposta? ')) 
+if pergunta == 2:     
+    acertos += 1     
+    print('\nMuito bem!\n') 
+else:     
+    erros += 1     
+    print('\nErrou essa?!\n')  
+
+perguntas += 1
+
+print('Décima pergunta, qual(is) é(são) o(s) melhor(es) cantor(es) e cantora(s)?') print('1) João Bosco e Vinícius, Simone Mendes') 
+print('2) Victor e Leo, Malu') 
+print('3) Dilsinho, Maiara e Maraisa') 
+print('4) Bruno e Marrone, Chitãozinho e Xororó') 
+print('5) Diego e Victor Hugo, Simone e Simaria') 
+print('6) Luan Santana, Marília Mendonça') 
+print('7) Henrique e Juliano, Zé Neto e Cristiano') 
+print('8) Mathues e Kauan, Paula Fernandes')  
+
+pergunta = int(input('Qual das alternativas é a sua resposta? '))
+ if pergunta == 6:     
+    acertos += 1     
+    print('\n😝!\n') 
+else:     
+    erros += 1     
+    print('\nAh...você errou!\n')  
+
 pontuacao_final = (acertos * 100)/perguntas
 print(f'Ah, este quiz chegou ao seu fim...maaass, irei revelar os seus stats! Sua pontuação final foi de {pontuacao_final:.2f}%, tendo {acertos} acerto(s) e {erros} erro(s)')
+
 ```
 ---
