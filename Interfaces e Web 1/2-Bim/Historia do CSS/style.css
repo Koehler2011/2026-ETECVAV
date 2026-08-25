@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CCE3FC;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#subtitulo h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin: 20px 10px;
+}
+
+.texto {
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+}
+
+.lista {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+.lista li {
+    margin-bottom: 8px;
+    text-indent: 0;
+}
+
+table {
+    margin-bottom: 30px;
+}
