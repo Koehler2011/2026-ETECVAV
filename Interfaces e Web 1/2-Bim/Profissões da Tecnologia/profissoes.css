@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: azure;
+}
+
+
+
+main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #2b2b2b;
+  }
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.titulo{
+  text-align: center;
+  font-size: 15px;
+}
+.texto
+{
+  text-align: justify;
+  font-size: 17px;
+
+}
+.subtitulo
+{
+  font-size: 19px;
+  text-align: left;
+}
+.menu-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #2b2b2b; 
+  padding: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+.menu-container{
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo h1{
+  color: white;
+  margin: 0;
+}
+
+.botoes-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 10px;
+}
+
+.botoes-menu a{
+  color: white;
+  text-decoration: none;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagem {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img1{
+    max-width: 100%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+@media (min-width: 600px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main {
+        padding: 40px;
+    }
+
+}
+@media (min-width: 1024px) {
+    main {
+        max-width: 1000px;
+        margin: 0 auto;   
+        text-align: center;  
+    }
+    .texto
+    {
+      font-size: 20px;
+    }
+.subtitulo
+{
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+}
+.img{
+  width: 250px;
+  height: 250px;
+}
+.imagem {
+  width: 600px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img1{
+  width: 450px;
+  height: 300px;
+}
+.img2{
+  width: 500px;
+  height: 250px;
+}
+}
+
