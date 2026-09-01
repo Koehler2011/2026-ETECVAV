@@ -4,8 +4,9 @@
 
 ```python
 
+
 """
-    Quiz de cantores sertanejos, criado por Eduardo Koehler 1°D
+    Quiz de cantores sertanejos, criado por Eduardo Koehler, Giovanni Rovesta e Rafael Dantas 1°D
 """
 
 acertos = 0
@@ -183,6 +184,7 @@ perguntas += 1
 
 pontuacao_final = (acertos * 100)/perguntas
 print(f'Ah, este quiz chegou ao seu fim...maaass, irei revelar os seus stats! Sua pontuação final foi de {pontuacao_final:.2f}%, tendo {acertos} acerto(s) e {erros} erro(s)')
+
 
 ```
 ---
