@@ -1,22 +1,22 @@
-import json #Importa a biblioteca do Python que lida com arquivos no formato JSON (um formato de texto muito usado para guardar e transferir dados organizados).
-import os #Importa a biblioteca OS (Operating System), que permite ao Python conversar diretamente com o sistema operacional do computador (para checar se arquivos existem, criar pastas, etc.).
+import json
+import os
 
-DATA_FILE = "lanchonete_dados.json" #Cria uma constante com o nome do arquivo onde as informações serão salvas.
+DATA_FILE = "lanchonete_dados.json"
 
-products = [] #Cria uma lista vazia chamada products para armazenar os produtos na memória RAM.
-orders = [] #Cria uma lista vazia chamada orders para armazenar os pedidos na memória RAM.
+products = []
+orders = []
 
 
-def load_data(): #Define a função responsável por ler o arquivo salvo e carregar as informações na memória.
-    global products, orders #Avisa ao Python que a função vai alterar as variáveis products e orders que foram criadas do lado de fora dela (globais).
+def load_data():
+    global products, orders
 
-    if not os.path.exists(DATA_FILE): #Testa se o arquivo "lanchonete_dados.json" não existe na pasta.
-        products = [] #Se o arquivo não existir, garante que as listas comecem vazias.
-        orders = [] #Se o arquivo não existir, garante que as listas comecem vazias.
-        return #Encerra a função imediatamente se o arquivo não existir, sem tentar abri-lo.
+    if not os.path.exists(DATA_FILE):
+        products = []
+        orders = []
+        return
 
-    with open(DATA_FILE, "r", encoding="utf-8") as file: #Abre o arquivo no modo leitura ("r" = read) usando a codificação de texto UTF-8 (para aceitar acentos). O with garante que o arquivo será fechado automaticamente depois.
-        data = json.load(file) #Converte o texto JSON que está dentro do arquivo para um dicionário em Python e guarda na variável data.
+    with open(DATA_FILE, "r", encoding="utf-8") as file:
+        data = json.load(file)
         products = data.get("products", [])
         orders = data.get("orders", [])
 
@@ -143,7 +143,9 @@ def show_menu():
     print("5 - Alterar preço do produto")
     print("6 - Remover produto")
     print("7 - Relatório de vendas")
-    print("8 - Sair")
+    print("8 - Pesquisar produto por nome")
+    print("9 - Sair")
+
 
 def change_price():
     if len(products) == 0:
@@ -153,14 +155,16 @@ def change_price():
     list_products()
     nome_do_produto = input('Qual o nome do produto que você quer mudar o valor?: ')
     for product in products:
-        if product["name"] == nome_do_produto:
+        if product["name"].lower() == nome_do_produto.lower():
             novo_valor = float(input('Digite o novo valor deste produto: '))
             product["price"] = novo_valor
             save_data()
 
             print("Valor alterado com sucesso!")
-            
             return
+
+    print("Produto não encontrado.")
+
 
 def remove_product():
     if len(products) == 0:
@@ -169,15 +173,16 @@ def remove_product():
 
     list_products()
     nome_do_produto = input('Qual produto você deseja remover?: ')
-    
+
     for product in products:
-        if product["name"] == nome_do_produto:
+        if product["name"].lower() == nome_do_produto.lower():
             products.remove(product)
             save_data()
             print('Produto removido com sucesso!')
             return
 
     print('Produto não encontrado.')
+
 
 def sales_report():
     if len(orders) == 0:
@@ -191,10 +196,24 @@ def sales_report():
         total_faturado += order["total"]
         produtos_vendidos += order["quantity"]
 
-    print(f"\n--- RELATÓRIO DE VENDAS ---")
+    print("\n--- RELATÓRIO DE VENDAS ---")
     print(f"Total de pedidos: {len(orders)}")
     print(f"Produtos vendidos: {produtos_vendidos}")
     print(f"Faturamento total: R$ {total_faturado:.2f}")
+
+def search():
+    if len(products) == 0:
+        print("Nenhum produto registrado.")
+        return
+
+    busca = input("Digite um produto que você queira procurar: ")
+    for product in products:
+        if product["name"].lower == busca.lower:
+            print(f"Há um produto registrado com o nome: {busca}")
+            return
+        
+    print(f"Não há nenhum produto resistrado com o nome: {busca}")
+
 
 def main():
     load_data()
@@ -218,6 +237,8 @@ def main():
         elif option == "7":
             sales_report()
         elif option == "8":
+            search()
+        elif option == "9":
             save_data()
             print("Sistema encerrado.")
             break
